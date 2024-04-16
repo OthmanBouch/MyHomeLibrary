@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="16dp"
+    android:layout_weight="6"
+    android:background="#A2B10F"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <!-- Labels -->
+
+
+    <TextView
+        android:id="@+id/tv_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="book_ID"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_id"
+        android:layout_marginBottom="4dp"
+        android:text="title"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_title"
+        android:layout_marginBottom="4dp"
+        android:text="author"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_author"
+        android:layout_marginBottom="4dp"
+        android:text="field"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_field"
+        android:layout_marginBottom="4dp"
+        android:text="status"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_shelf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_status"
+        android:layout_marginBottom="4dp"
+        android:text="shelf_num"
+        android:textSize="16sp" />
+
+
+    <!-- Values -->
+    <TextView
+        android:id="@+id/tv_value_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="4dp"
+        android:textSize="16sp"
+        tools:ignore="RelativeOverlap"
+        tools:text="Value ID" />
+
+    <TextView
+        android:id="@+id/tv_value_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_value_id"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="4dp"
+        android:textSize="16sp"
+        tools:text="Value title" />
+
+    <TextView
+        android:id="@+id/tv_value_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_value_title"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="4dp"
+        android:textSize="16sp"
+        tools:text="Value author" />
+
+    <TextView
+        android:id="@+id/tv_value_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_value_author"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="4dp"
+        android:textSize="16sp"
+        tools:text="Value field" />
+
+    <TextView
+        android:id="@+id/tv_value_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_value_field"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="4dp"
+        android:textSize="16sp"
+        tools:text="Value status" />
+
+    <TextView
+        android:id="@+id/tv_shelf_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_value_status"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="4dp"
+        android:textSize="16sp"
+        tools:text="Value shelf" />
+
+
+
+
+</RelativeLayout>

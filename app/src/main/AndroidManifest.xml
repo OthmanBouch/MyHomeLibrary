@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyHomeLibrary"
+        tools:targetApi="31">
+        <activity
+            android:name=".UserEventRes"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".UserRoomsRes"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".UserHomeRes"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".UserEvent"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".UserRooms"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".usermain"
+            android:exported="false"
+            android:label="@string/title_activity_usermain"
+            android:theme="@style/Theme.MyHomeLibrary.NoActionBar" />
+        <activity
+            android:name=".SeeEvent"
+            android:exported="false" />
+        <activity
+            android:name=".Add_Event_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".SeeGuests"
+            android:exported="false" />
+        <activity
+            android:name=".Add_Guest_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".SeeShelves"
+            android:exported="false" />
+        <activity
+            android:name=".Add_Shelf_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".SeeRooms"
+            android:exported="false" />
+        <activity
+            android:name=".Add_Room_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".SeeBook"
+            android:exported="false" />
+        <activity
+            android:name=".Add_Book_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminViewChoice"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateUserActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserHome"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+        <activity
+            android:name=".AdminHome"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,30 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#36595454"
+        android:orientation="horizontal"
+        android:layout_centerInParent="true"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/btnADD_ROOM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="ADD ROOM" />
+
+        <Button
+            android:id="@+id/btnSEE_ROOM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hapticFeedbackEnabled="false"
+            android:text="SEE ROOM" />
+    </LinearLayout>
+</RelativeLayout>

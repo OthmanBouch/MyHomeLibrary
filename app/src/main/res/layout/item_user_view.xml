@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="16dp"
+    android:layout_weight="6"
+    android:background="@android:color/holo_orange_light"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <!-- Labels -->
+
+
+    <TextView
+        android:id="@+id/tv_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="ID"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_id"
+        android:layout_marginBottom="4dp"
+        android:text="name"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_name"
+        android:layout_marginBottom="4dp"
+        android:text="email"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_email"
+        android:layout_marginBottom="4dp"
+        android:text="password"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_room_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_password"
+        android:layout_marginBottom="4dp"
+        android:text="room_num"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_event_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_room_num"
+        android:layout_marginBottom="4dp"
+        android:text="event_num"
+        android:textSize="16sp" />
+
+    <!-- Values -->
+    <TextView
+        android:id="@+id/tv_value_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="4dp"
+        android:textSize="16sp"
+        tools:ignore="RelativeOverlap"
+        tools:text="Value ID" />
+
+    <TextView
+        android:id="@+id/tv_value_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_value_id"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="4dp"
+        android:textSize="16sp"
+        tools:text="Value name" />
+
+    <TextView
+        android:id="@+id/tv_value_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_value_name"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="4dp"
+        android:textSize="16sp"
+        tools:text="Value email" />
+
+    <TextView
+        android:id="@+id/tv_value_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_value_email"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="4dp"
+        android:textSize="16sp"
+        tools:text="Value password" />
+
+    <TextView
+        android:id="@+id/tv_value_room"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_value_password"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="4dp"
+        android:textSize="16sp"
+        tools:text="Value room" />
+
+    <TextView
+        android:id="@+id/tv_value_event"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_value_room"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="4dp"
+        android:textSize="16sp"
+        tools:text="Value event" />
+
+</RelativeLayout>
